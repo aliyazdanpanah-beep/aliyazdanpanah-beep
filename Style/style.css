@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+#Icon {
+    cursor: pointer;
+    z-index: 1;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    position: fixed;
+    right: 20px;
+    top: 10px;
+}
+
+#Side_Nav {
+    position: fixed;
+    right: -90px;
+    top: 0;
+    color: #fff;
+    width: 90px;
+    height: 100vh;
+    text-align: center;
+    background-color: #5A35E9;
+}
+
+.Side_Nav_text {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 130px;
+}
+
+.first__section {
+    width: 100%;
+    padding: 60px 65px;
+    /* background-color: #030303; */
+    background-image: url(../my_Img/metion_tipe.jpg);
+    background-size: cover;
+}
+
+.first__section_head {
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first__section_head_wrapper {
+    color: rgb(167, 167, 167);
+}
+
+.first__section_head_wrapper:nth-child(1) {
+    color: #fff;
+}
+
+.first__section_head_text {
+    margin-right: 50px;
+    position: relative;
+}
+
+.first__section_head_text:before{
+    content: "";
+    position: absolute;
+    top: 102%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: all ease-in 1s;
+}
+
+.first__section_head_text:hover:before{
+    transition: all ease-in 0.5s;
+    width: 100%;
+    color: #fff;
+}
+
+
+.first__section_head_text:nth-child(5) {
+    color: #fff;
+    padding: 5px 10px;
+    background-color: #5B2BE9;
+    border-radius: 5px;
+
+}
+
+.first__section_info {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.first__section_info_title{
+    margin-bottom: 60px;
+    color: #fff;
+}
+
+.first__section_info_TBottun {
+    margin-top: 20px;
+    padding: 12px 30px;
+    margin-top: 30px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    color: gray;
+    border-radius: 21px;
+}
+
+.first__section_info_TBottun:active{
+    background-color: #5A35E9;
+    color: #fff;
+    transition: 1ms;
+}
+
+.first__section_info_BBottun {
+    margin-top: 45px;
+    padding: 12px 40px;
+    background-color: #5A35E9;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 21px;
+}
+
+.first__section_info_BBottun:active{
+    transition: all ease-in 1ms;
+    background-color: #fff;
+    color: #000;
+}
+
+.tiwch__section{
+    width: 100%;
+    padding: 12% 40px;
+    display: flex;
+    color: #fff;
+    background-color: #131212;
+}
+
+
+.tiwch__section_left {
+    padding: 20px;
+    width: 600px;
+}
+
+
+
+.tiwch__section_right_first_P{
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+#tiwch__section_img {
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    margin-top: 60px;
+    left: -620px;
+    opacity: 0.4;
+    /* background-color: #000; */
+    border-radius: 10px;
+    background-image: url(../my_Img/Liberey.jpg);
+    background-size: cover;
+}
+
+.tiwch__section_right_title{
+    margin-top: 500px;
+    font-size: 35px;
+}
+
+.tiwch__section_right_secend_P{
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.tiwch__section_right {
+    padding: 20px;
+    width: 600px;
+}
+
+.tiwch__section_left_Button{
+    padding: 10px 45px;
+    border-radius: 20px;
+    border: none;
+    background-color: #5A35E9;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-left: 20%;
+
+}
+
+.tiwch__section_left_Button:active {
+    background-color: #fff;
+    color: #000;
+    transition: all ease-in 1ms;
+}
+
+.tiwch__section_left_title{
+    margin-top: 70px;
+    font-size: 25px;
+}
+
+.tiwch__section_left_first_P{
+    margin-top: 40px;
+    font-size: 18px;    
+    width: 300px;
+}
+
+.tiwch__section_left_secend_P {
+    margin-top: 40px;
+    font-size: 18px;
+    width: 300px;
+}
+
+.treed__section{
+    width: 100%;
+    padding: 90px 60px;
+    text-align: center;
+    /* background-color: #10091F; */
+    color: #fff;
+    background-image: url(../my_Img/Forst.jpg);
+    background-size: cover;
+}
+
+.treed__section_wrapper{
+    margin-right: auto;
+    margin-left: auto;
+    width: 70%;
+}
+
+.treed__section_wrapper_title{
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.treed__section_wrapper_first_P{
+    margin-top: 50px;
+    font-size: 19px;
+}
+
+.treed__section_wrapper_secend_P{
+    margin-top: 7px;
+    font-size: 14px
+}
+
+.treed__section_wrapper_treed_P{
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+.treed__section_wrapper_Button {
+    padding: 6px 30px;
+    color: gray;
+    background-color: #fff;
+    border: none;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+.treed__section_wrapper_Button:active {
+    transition: all ease-in 1ms;
+    background-color:#5B2BE9;
+    color: #fff;
+}
+
+.fured_section{
+    display: flex;
+    width: 100%;
+    padding: 70px 50px;
+    justify-content: center;
+    gap: 200px;
+    background-color: #221345;
+}
+
+.fured_section_box_item {
+    margin-top: 70px;
+    color: gray;
+}
+
+.fured_section_box_item_P {
+    position: relative;
+    padding-top: 14px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.fured_section_box_item_P::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    top: 101%;
+    left: 0;
+    background-color: #fff;
+    transition: all ease-in 1s;
+
+}
+
+.fured_section_box_item_P:hover::after {
+    width: 65%;
+    transition: all ease-in 0.5s;
+
+}
